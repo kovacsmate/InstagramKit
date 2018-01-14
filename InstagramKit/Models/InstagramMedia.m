@@ -163,7 +163,7 @@
 
 - (NSInteger)commentCount
 {
-    return [self.mComments count];
+    return self.commentsCount;
 }
 
 - (NSArray *)usersInPhoto
